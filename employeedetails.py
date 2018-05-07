@@ -7,7 +7,13 @@ class Employee(object):
 		
 	
 	def department(self):
-		employeeDepartment = dict()
+		employeeDepartment = list()
 		## create the departments the employee worked with the organisation,
 		## EX: create 3 departments: HR, TESTING AND CODING.
+		## It should PRINT that list.
+
+	def personalDetails(self):
+                ## Create a key value pair of personal details.
+                ## ex:{'age':32}
+                ## It should PRINT that dictionary of all the personal details.
 
