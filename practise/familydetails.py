@@ -8,9 +8,13 @@ class family(object):
             print('No Kids')
         else:
             print('No idea')
+    @staticmethod
+    def iamstatic():
+        print('i am static')
 
 
-#object=family('not married')
-#object.hasChild()
+object=family('not married')
+object.hasChild()
+family.iamstatic()
 
         

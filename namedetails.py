@@ -11,8 +11,8 @@ class abc(object):
         nameList.append(self.name+surname)
         logger.info('The value of list is delared {}'.format(nameList))
 
-object=abc('Aashrith')
-object.fnc('kesh')
+object=abc('Anagha Priya ')
+object.fnc('A')
 object1=abc('Sampada')
 object1.fnc('g')
         
